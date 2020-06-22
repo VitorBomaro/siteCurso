@@ -71,6 +71,7 @@ li{
     align-items: center;
     height: 50vh;
     background-image:-moz-linear-gradient(45deg, #2c3e50,#8e44ad);
+    background-image:-webkit-linear-gradient(45deg, #2c3e50,#8e44ad);
     background-size: 500% 400%; 
     border-bottom:2px solid #8e44ad;
     animation: move 10s ease-in-out infinite;
@@ -173,6 +174,7 @@ div a:hover{
 .container-sobre{
     height: 100vh;
     background-image:-moz-linear-gradient(45deg, #2c3e50,#8e44ad);
+    background-image:-webkit-linear-gradient(45deg, #2c3e50,#8e44ad);
     background-size: 500% 400%; 
     animation: move 10s ease-in-out infinite; 
     display: flex;
@@ -190,4 +192,10 @@ div a:hover{
     .h1-sobre{
         font-size:2rem;
     }
+}
+
+
+img{
+    width: 80px;
+    height:80px;
 }
